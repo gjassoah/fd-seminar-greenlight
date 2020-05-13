@@ -179,3 +179,74 @@ table {
 #delete-confirm:disabled {
   cursor: not-allowed;
 }
+
+/* CUSTOMISATIONS */
+
+.header .header-nav {
+    color: white !important;
+}
+.header .header-nav {
+    &.active {
+        border-bottom: 1px solid rgb(255,127,0);
+    }
+}
+.header .header-nav {
+    &:hover{
+        border-bottom: 1px solid rgb(255,127,0);
+    }
+}
+
+.footer, .header {
+    background: url("https://www.fd-seminar.xyz/img/mesh-alpha25.png");
+    background-color: #006884;
+    background-size: $footer-height;
+    color: white;
+}
+
+.footer a:not(.btn) {
+    color: rgb(255,127,0) !important;
+}
+
+.header a.header-nav {
+    &.active {
+        color: rgb(255,127,0) !important;
+    }
+}
+
+.header a.header-nav:hover:not(.btn) {
+    color: #cccccc !important;
+}
+
+.header .text-default {
+    color: white !important;
+}
+
+.header .btn-outline-primary {
+    border-color: white !important;
+    background-color: white !important;
+}
+
+.header a.btn-outline-primary:hover {
+    background-color: gray;
+}
+
+.header a.btn-outline-primary:hover {
+    color: rgb(255,127,0) !important;
+    border-color: rgb(255,127,0) !important;
+}
+
+.warning {
+    background-color: #f2dbdc;
+    border-left: 0.33rem solid #ae272f;
+    padding: 1rem;
+}
+
+.hint {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+.hint::before{
+    content: "Hint: ";
+    font-weight: 600;
+}

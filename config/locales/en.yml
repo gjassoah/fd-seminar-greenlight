@@ -276,8 +276,8 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "%{href} is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to BigBlueButton.
+    about: "Although you do not need to register to attend talks in the seminar, creating an account will allow you to watch the recordings of previous talks. The password and access link for the upcoming talk will be distributed through our mailing list before each talk."
+    welcome: Welcome to our BigBlueButton instance.
     video: Watch our tutorial on using Greenlight
     upgrade: Show me how to upgrade to 2.0!
     version: We've released a new version of Greenlight, but your database isn't compatible.
@@ -289,7 +289,7 @@ en:
     user:
       approve:
         info: Your account has been approved.
-        signin: To access your personal rooms, click the button below and sign in.
+        signin: To access our BBB instance, click the button below and sign in.
         signin_link: Sign In
         signup:
           info: A new user has signed up to use Greenlight.
@@ -305,7 +305,7 @@ en:
         root_link: Sign In
         subtitle: "%{role} Rights Rescinded"
       invite:
-        info: You have been invited to your own personal space by %{name}
+        info: You have been invited to FD seminar's BigBlueButton instance by %{name}
         signup_info: To signup using your email, click the button below and follow the steps.
         signup_link: Sign Up
         signup:
@@ -328,8 +328,8 @@ en:
         more-info: To view your new abilities please visit %{url}.
         subtitle: "%{role} Rights Granted"
       verify_email:
-        welcome: Welcome to your personal space, %{name}!
-        success: Leveraging %{bigbluebutton}, you can create your own rooms to host sessions and collaborate with others.
+        welcome: Welcome to our BigBlueButton instance, %{name}!
+        success: After completing this verification step your account will be submitted to the administrators for approval.
         username: Your username is %{email}.
         verify: To verify your account, just click the button below.
         verify_text: 'To verify your account, just follow this link: %{url}'
