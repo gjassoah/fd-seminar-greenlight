@@ -37,20 +37,9 @@
                         </div>
                     </div>
                     <div class="col-7">
-                        <div class="card h-100">
-                            <div class="card-status bg-primary"></div>
-                            <div class="card-header cant-create-rooms-title">
-                                <h3 class="card-title">The current access code is <%= room = Room.find_by!(uid: "org-hdq-4ap").access_code %></h3>
-                            </div>
-                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                                <p>
-                                    <form action="https://bbb.fd-seminar.xyz/b/org-hdq-4ap" class="w-75">
-                                        <input type="submit" value="Go to the FD Seminar room" class="btn btn-primary btn-block" >
-                                    </form>
-                                </p>
-                                <p class=warning>To avoid technical issues, it is strongly recommened to join the FD Seminar through <a href="https://www.google.com/chrome/">Google Chrome</a> or <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a>.</p>
-                            </div>
-                        </div>
+                        <!-- BEGIN Direct link to FD Seminar room -->
+                        <%= render "rooms/components/fd-seminar_direct_link"%>
+                        <!-- END Direct link to FD Seminar room -->
                     </div>
                 </div>
             </div>

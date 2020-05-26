@@ -324,7 +324,7 @@ en:
         ignore: You can safely ignore this email if you did not make this request.
       promoted:
         admins_link: Visit the Organization Page
-        info: You are now an %{role} on %{url}.
+        info: You are now %{role} on %{url}.
         more-info: To view your new abilities please visit %{url}.
         subtitle: "%{role} Rights Granted"
       verify_email:
